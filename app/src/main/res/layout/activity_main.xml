@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@color/appBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/loginheader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:padding="5dp"/>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/white"
+                android:text="@string/userName" />
+            <EditText
+                android:id="@+id/loginUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/userNamehint"
+                android:background="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mobileNo"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/white"
+                />
+            <EditText
+                android:id="@+id/loginMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobileNoHint"
+                android:background="@color/white"/>
+            />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/loginBtnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+
+                />
+
+            <Button
+                android:id="@+id/loginRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/register" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

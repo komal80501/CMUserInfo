@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CMUserInfo</string>
+    <string name="login">login</string>
+    <string name="userName">username</string>
+    <string name="userNamehint">Enter User Name</string>
+    <string name="register">Register</string>
+    <string name="mobileNoHint">Enter Mobile No</string>
+    <string name="mobileNo">Mobile No</string>
+    <string name="email">Email ID </string>
+    <string name="emailHint">Enter Email</string>
+    <string name="cancel">Cancel</string>
+</resources>
